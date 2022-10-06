@@ -1,0 +1,146 @@
+@media (min-width: 1440px) {
+  :root {
+    --size-30: 2.08333333333333vw;
+    --size-32: 2.22222222222222vw;
+    --size-165: 11.4583333333333vw;
+    --size-242: 16.8055555555556vw;
+    --size-255: 17.7083333333333vw;
+    --size-303: 21.0416666666667vw;
+    --size-394: 27.3611111111111vw;
+  }
+
+  .top-section {
+    padding: 0 450px;
+  }
+
+  .logo {
+    margin-top: 80px;
+  }
+
+  .top-section-img-container {
+    margin-top: 61px;
+    height: 0px;
+  }
+
+  .top-img-mobile {
+    display: none;
+  }
+
+  .top-img-tablet {
+    display: none;
+  }
+
+  .top-img-desktop {
+    display: block;
+    position: absolute;
+    width: var(--size-394);
+    height: var(--size-303);
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .top-img-desktop.left {
+    left: calc(-1 * var(--size-32));
+  }
+
+  .top-img-desktop.right {
+    right: calc(-1 * var(--size-32));
+  }
+
+  .top-text-container {
+    justify-content: space-between;
+    height: var(--size-303);
+  }
+
+  .top-text-container h1 {
+    margin-top: auto;
+    font-size: 64px;
+    line-height: 64px;
+    max-width: 445px;
+  }
+
+  .top-text-container p {
+    margin-top: auto;
+    font-size: 18px;
+    width: 540px;
+  }
+
+  .btn-container {
+    margin-top: auto;
+  }
+
+  .middle-section {
+    margin-top: 194px;
+    padding: 0 var(--size-165);
+  }
+
+  .middle-section-img-container {
+    gap: var(--size-30);
+  }
+
+  /* This will be responsive */
+
+  .middle-section-img-container img {
+    width: var(--size-255);
+    height: var(--size-242);
+  }
+
+  .middle-section h5 {
+    margin-top: 80px;
+  }
+
+  .middle-section-paragraph {
+    font-size: 18px;
+  }
+
+  .bottom-section {
+    flex-direction: row;
+    margin-top: 184px;
+    padding: 116px 165px 155px 165px;
+  }
+
+  .bottom-img-mobile {
+    display: none;
+  }
+
+  .bottom-img-tablet {
+    display: none;
+  }
+
+  .bottom-img-desktop {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    /*height: var(--size-422);*/
+    left: 0;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+
+  .bottom-section .section-number {
+    position: absolute;
+    top: -28px;
+    background-color: var(--white);
+    color: var(--gray);
+    z-index: 2;
+  }
+
+  .bottom-section h1 {
+    margin-top: 0px;
+    margin-right: 125px;
+    width: 350px;
+  }
+
+  .bottom-section-paragraph {
+    margin-top: 0px;
+    width: 350px;
+    margin-right: 92px;
+  }
+
+  .bottom-section .btn-purple {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}

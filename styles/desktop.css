@@ -99,17 +99,14 @@
     padding: 116px 165px 155px 165px;
   }
 
-  .bottom-img-mobile {
-    display: none;
-  }
-
-  .bottom-img-tablet {
-    display: none;
-  }
-
-  .bottom-img-desktop {
+  picture {
     position: absolute;
     top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  picture img {
     width: 100%;
     height: 100%;
     /*height: var(--size-422);*/

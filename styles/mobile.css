@@ -273,23 +273,20 @@ button {
   z-index: 1;
 }
 
-.bottom-img-mobile {
+picture {
   position: absolute;
   top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+picture img {
   width: 100%;
   height: 100%;
   /*height: var(--size-422);*/
   left: 0;
   object-fit: cover;
   object-position: center top;
-}
-
-.bottom-img-tablet {
-  display: none;
-}
-
-.bottom-img-desktop {
-  display: none;
 }
 
 .bottom-section .section-number {
